@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: fantasy;
+}
+.main .articles {
+    margin: auto;
+    
+    width: 68.5%;
+    float: left;
+    
+    margin-right: 1.10;
+}
+.main .articles h2 {
+    color: rgb(218, 119, 20);
+}
+.main .articles h3 {
+    color: rgb(186, 189, 22);
+}
+
+.main .articles p {
+    color: rgb(243, 177, 138);
+}
+.main .articles articles{
+    padding: 20px;
+    
+    margin-bottom: 20px;
+}
+
+    .main .articles img{
+        width: 50%;
+        height: 200px;
+        border: 3px solid rgb(240, 133, 11);
+        
+        background-size: 100% 100%;
+       
+    }

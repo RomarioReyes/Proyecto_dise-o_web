@@ -1,0 +1,37 @@
+.banner{
+
+    width: 50%;
+    height: 200px;
+    border: 3px solid rgb(240, 133, 11);
+    margin: auto;
+    background-size: 100% 100%;
+    animation: frecuencia 15s infinite;
+    animation-direction: alternate;
+}
+@keyframes frecuencia{
+0%, 15%{
+    background-image: url(../img/fondo1.jpg);
+    opacity: 1;
+}
+16%, 18%{
+    opacity: 1;
+}
+19%, 30%{
+    background-image: url(../img/fondo2.jpg);
+    opacity: 1;
+}
+31%, 50%{
+    background-image: url(../img/fondo3.jpg);
+    opacity: 1;
+}
+51%, 70%{
+    background-image: url(../img/fondo4.jpg);
+}
+71%, 75%{
+    opacity: 0.1;
+}
+75%, 100%{
+    opacity: 1;
+    background-image: url(../img/fondo5.jpg);
+}
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/17-3463-April-Article-Banner-SmallPets.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: fantasy;
+}
+
+.contenedor-form {
+    background: rgba(0,0,0,.7);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    
+    position: relative;
+    /*padding: 40px;*/
+}
+.contenedor-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: #FFF;
+}
+.contenedor-form input[type="text"],
+.contenedor-form input[type="number"],
+.contenedor-form input[type="date"],
+.contenedor-form input[type="password"],
+.contenedor-form input,
+.contenedor-form input[type="email"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #ff851b;
+    box-sizing: border-box;
+    font-family: fantasy;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="text"]:focus,
+.contenedor-form input:focus,
+.contenedor-form input[type="date"]:focus,
+.contenedor-form input[type="password"]:focus,
+.contenedor-form input[type="number"]:focus,
+.contenedor-form input[type="email"]:focus {
+    border-bottom: 4px solid #0075d9;
+}
+
+.contenedor-form input[type="submit"] {
+    background: #FF851B;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="submit"]:hover {
+    background: rgba(0, 117, 217, 0.7);
+}
+.contenedor-form .formulario {
+    
+    padding: 40px;
+}
+
+.contenedor-form .formulario a{
+    position: relative;
+    top: 35px;
+    right: -175px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-top: 2px solid #ff851b;
+    border-bottom: 2px solid #ff851b;
+    
+}
+.contenedor-form  h1{
+    position: relative;
+    top: 10px;
+    right: -10px;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: orange;
+}
+.contenedor-form .formulario a:hover{
+
+    border-top: 2px solid #0075d9;
+    border-bottom: 2px solid #0075d9;
+}
+
+

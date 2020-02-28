@@ -1,0 +1,7 @@
+.fixed{
+    position: end;
+    bottom: 0;
+    right: 200;
+    width: 200px;
+    background-color: white;
+}
